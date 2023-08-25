@@ -46,7 +46,7 @@
     .home {
         justify-content: center;
         width: 90%;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 1rem;
     }
     #explore {
@@ -55,4 +55,9 @@
     .required {
         width: 100%;
     }
+    .content-column{
+        width: 100%;
+    }
+   
 }
+
